@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		09E8ECAD27C6FC8D00D1A672 /* 01_Erste-App-mit-SwiftUI */ = {
+		09E8ECAD27C6FC8D00D1A672 /* Erste-App-mit-SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 09E8ECBC27C6FC8E00D1A672 /* Build configuration list for PBXNativeTarget "01_Erste-App-mit-SwiftUI" */;
+			buildConfigurationList = 09E8ECBC27C6FC8E00D1A672 /* Build configuration list for PBXNativeTarget "Erste-App-mit-SwiftUI" */;
 			buildPhases = (
 				09E8ECAA27C6FC8D00D1A672 /* Sources */,
 				09E8ECAB27C6FC8D00D1A672 /* Frameworks */,
@@ -82,7 +82,7 @@
 			);
 			dependencies = (
 			);
-			name = "01_Erste-App-mit-SwiftUI";
+			name = "Erste-App-mit-SwiftUI";
 			productName = "01_Erste-App-mit-SwiftUI";
 			productReference = 09E8ECAE27C6FC8D00D1A672 /* Erste-App-mit-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 09E8ECA927C6FC8D00D1A672 /* Build configuration list for PBXProject "01_Erste-App-mit-SwiftUI" */;
+			buildConfigurationList = 09E8ECA927C6FC8D00D1A672 /* Build configuration list for PBXProject "Erste-App-mit-SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				09E8ECAD27C6FC8D00D1A672 /* 01_Erste-App-mit-SwiftUI */,
+				09E8ECAD27C6FC8D00D1A672 /* Erste-App-mit-SwiftUI */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"01_Erste-App-mit-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Erste-App-mit-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ZVY5KQYKP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -297,7 +297,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"01_Erste-App-mit-SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Erste-App-mit-SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = 3ZVY5KQYKP;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -322,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		09E8ECA927C6FC8D00D1A672 /* Build configuration list for PBXProject "01_Erste-App-mit-SwiftUI" */ = {
+		09E8ECA927C6FC8D00D1A672 /* Build configuration list for PBXProject "Erste-App-mit-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09E8ECBA27C6FC8E00D1A672 /* Debug */,
@@ -331,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		09E8ECBC27C6FC8E00D1A672 /* Build configuration list for PBXNativeTarget "01_Erste-App-mit-SwiftUI" */ = {
+		09E8ECBC27C6FC8E00D1A672 /* Build configuration list for PBXNativeTarget "Erste-App-mit-SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				09E8ECBD27C6FC8E00D1A672 /* Debug */,

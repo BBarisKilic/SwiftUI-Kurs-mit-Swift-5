@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:">
+      location = "self:/Users/bbk/XcodeProjects/SwiftUI-Kurs-mit-Swift-5/01_Erste-App-mit-SwiftUI/Erste-App-mit-SwiftUI.xcodeproj">
    </FileRef>
 </Workspace>
