@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		09E8ECB227C6FC8D00D1A672 /* _1_Erste_App_mit_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8ECB127C6FC8D00D1A672 /* _1_Erste_App_mit_SwiftUIApp.swift */; };
+		09E8ECB227C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8ECB127C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift */; };
 		09E8ECB427C6FC8D00D1A672 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8ECB327C6FC8D00D1A672 /* ContentView.swift */; };
 		09E8ECB627C6FC8E00D1A672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E8ECB527C6FC8E00D1A672 /* Assets.xcassets */; };
 		09E8ECB927C6FC8E00D1A672 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E8ECB827C6FC8E00D1A672 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		09E8ECAE27C6FC8D00D1A672 /* 01_Erste-App-mit-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "01_Erste-App-mit-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		09E8ECB127C6FC8D00D1A672 /* _1_Erste_App_mit_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_Erste_App_mit_SwiftUIApp.swift; sourceTree = "<group>"; };
+		09E8ECAE27C6FC8D00D1A672 /* Erste-App-mit-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Erste-App-mit-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E8ECB127C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Erste_App_mit_SwiftUIApp.swift; sourceTree = "<group>"; };
 		09E8ECB327C6FC8D00D1A672 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		09E8ECB527C6FC8E00D1A672 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09E8ECB827C6FC8E00D1A672 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -35,7 +35,7 @@
 		09E8ECA527C6FC8D00D1A672 = {
 			isa = PBXGroup;
 			children = (
-				09E8ECB027C6FC8D00D1A672 /* 01_Erste-App-mit-SwiftUI */,
+				09E8ECB027C6FC8D00D1A672 /* Erste-App-mit-SwiftUI */,
 				09E8ECAF27C6FC8D00D1A672 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +43,20 @@
 		09E8ECAF27C6FC8D00D1A672 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				09E8ECAE27C6FC8D00D1A672 /* 01_Erste-App-mit-SwiftUI.app */,
+				09E8ECAE27C6FC8D00D1A672 /* Erste-App-mit-SwiftUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		09E8ECB027C6FC8D00D1A672 /* 01_Erste-App-mit-SwiftUI */ = {
+		09E8ECB027C6FC8D00D1A672 /* Erste-App-mit-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				09E8ECB127C6FC8D00D1A672 /* _1_Erste_App_mit_SwiftUIApp.swift */,
+				09E8ECB127C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift */,
 				09E8ECB327C6FC8D00D1A672 /* ContentView.swift */,
 				09E8ECB527C6FC8E00D1A672 /* Assets.xcassets */,
 				09E8ECB727C6FC8E00D1A672 /* Preview Content */,
 			);
-			path = "01_Erste-App-mit-SwiftUI";
+			path = "Erste-App-mit-SwiftUI";
 			sourceTree = "<group>";
 		};
 		09E8ECB727C6FC8E00D1A672 /* Preview Content */ = {
@@ -84,7 +84,7 @@
 			);
 			name = "01_Erste-App-mit-SwiftUI";
 			productName = "01_Erste-App-mit-SwiftUI";
-			productReference = 09E8ECAE27C6FC8D00D1A672 /* 01_Erste-App-mit-SwiftUI.app */;
+			productReference = 09E8ECAE27C6FC8D00D1A672 /* Erste-App-mit-SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09E8ECB427C6FC8D00D1A672 /* ContentView.swift in Sources */,
-				09E8ECB227C6FC8D00D1A672 /* _1_Erste_App_mit_SwiftUIApp.swift in Sources */,
+				09E8ECB227C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +282,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BBKDevelopment.-1-Erste-App-mit-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BBKDevelopment.Erste-App-mit-SwiftUI";
+				PRODUCT_NAME = "Erste-App-mit-SwiftUI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -311,8 +311,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.BBKDevelopment.-1-Erste-App-mit-SwiftUI";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BBKDevelopment.Erste-App-mit-SwiftUI";
+				PRODUCT_NAME = "Erste-App-mit-SwiftUI";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
