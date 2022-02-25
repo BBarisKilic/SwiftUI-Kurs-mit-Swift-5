@@ -15,74 +15,15 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Spacer()
-            
-            Group {
-                Image("logo")
-                    .resizable()
-                    .aspectRatio( contentMode: .fit)
-                    .frame(width: 100, height: 100)
-                Text("Shareii")
-                    .font(.title)
-                    .bold()
-                Text("Teile deine Fotos mit anderen")
-                    .foregroundColor(Color.gray)
-                    .font(.subheadline)
-                    .multilineTextAlignment(.center)
-            }
-            
+            LoginHeaderView()
             Spacer()
             Divider()
-            
-            HStack {
-                Image(systemName: "envelope.fill")
-                    .foregroundColor(Color.gray)
-                TextField("Email...", text: $email)
-            }
-            .padding()
-            .border(Color.init(white:0.9))
-            .padding()
-            
-            HStack {
-                Image(systemName: "lock.fill")
-                    .foregroundColor(Color.gray)
-                TextField("Passwort...", text: $password)
-            }
-            .padding()
-            .border(Color.init(white:0.9))
-            .padding()
-            
-            Button(
-                action: {},
-                label: {
-                HStack {
-                    Spacer()
-                    Text("Login")
-                        .foregroundColor(Color.white)
-                        .bold()
-                    Spacer()
-                }
-                .padding()
-                .background(.black)
-                .cornerRadius(5)
-                .shadow(radius: 10)
-                .padding()
-            })
-            
+            EmailTextFieldView(email: $email)
+            PasswordTextFieldView(password: $password)
+            LoginButtonView()
             Spacer()
             Divider()
-            
-            HStack {
-                Text("Du hast noch keinen Account?")
-                    .foregroundColor(Color.gray)
-                    .font(.footnote)
-                Button(
-                    action: {},
-                    label: {
-                    Text("Account erstellen")
-                        .foregroundColor(Color.black)
-                        .bold()
-                })
-            }
+            LoginFooterView()
         }
     }
 }
