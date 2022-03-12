@@ -13,18 +13,23 @@ struct ContentView: View {
     @State var password : String = ""
     
     var body: some View {
-        VStack{
-            Spacer()
-            LoginHeaderView()
-            Spacer()
-            Divider()
-            EmailTextFieldView(email: $email)
-            PasswordTextFieldView(password: $password)
-            LoginButtonView()
-            Spacer()
-            Divider()
-            LoginFooterView()
+        NavigationView {
+            VStack{
+                Spacer()
+                LoginHeaderView()
+                Spacer()
+                Divider()
+                EmailTextFieldView(email: $email)
+                PasswordTextFieldView(password: $password)
+                LoginButtonView()
+                Spacer()
+                Divider()
+                NavigationLink(destination: NewAccountView()) {
+                    LoginFooterView()
+                }
+            }
         }
+        .accentColor(.black)
     }
 }
 

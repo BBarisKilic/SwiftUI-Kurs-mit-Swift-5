@@ -28,6 +28,8 @@ struct NewAccountView: View {
                 .padding([.leading])
             CreateAccountButtonView()
         }
+        .navigationTitle("Neuer Account")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
