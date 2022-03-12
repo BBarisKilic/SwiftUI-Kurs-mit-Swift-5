@@ -12,6 +12,9 @@
 		09285EF327C95726000EAC36 /* PasswordTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09285EF227C95726000EAC36 /* PasswordTextFieldView.swift */; };
 		09285EF527C9576C000EAC36 /* LoginButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09285EF427C9576C000EAC36 /* LoginButtonView.swift */; };
 		09285EF727C957A6000EAC36 /* LoginFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09285EF627C957A6000EAC36 /* LoginFooterView.swift */; };
+		098EBB9B27DD53B8009F9E13 /* NewAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098EBB9A27DD53B8009F9E13 /* NewAccountView.swift */; };
+		098EBB9D27DD57F2009F9E13 /* UsernameTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098EBB9C27DD57F2009F9E13 /* UsernameTextFieldView.swift */; };
+		098EBB9F27DD58AD009F9E13 /* CreateAccountButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098EBB9E27DD58AD009F9E13 /* CreateAccountButtonView.swift */; };
 		09E8ECB227C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8ECB127C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift */; };
 		09E8ECB427C6FC8D00D1A672 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E8ECB327C6FC8D00D1A672 /* ContentView.swift */; };
 		09E8ECB627C6FC8E00D1A672 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09E8ECB527C6FC8E00D1A672 /* Assets.xcassets */; };
@@ -24,6 +27,9 @@
 		09285EF227C95726000EAC36 /* PasswordTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldView.swift; sourceTree = "<group>"; };
 		09285EF427C9576C000EAC36 /* LoginButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonView.swift; sourceTree = "<group>"; };
 		09285EF627C957A6000EAC36 /* LoginFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFooterView.swift; sourceTree = "<group>"; };
+		098EBB9A27DD53B8009F9E13 /* NewAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAccountView.swift; sourceTree = "<group>"; };
+		098EBB9C27DD57F2009F9E13 /* UsernameTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsernameTextFieldView.swift; sourceTree = "<group>"; };
+		098EBB9E27DD58AD009F9E13 /* CreateAccountButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountButtonView.swift; sourceTree = "<group>"; };
 		09E8ECAE27C6FC8D00D1A672 /* Erste-App-mit-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Erste-App-mit-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09E8ECB127C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Erste_App_mit_SwiftUIApp.swift; sourceTree = "<group>"; };
 		09E8ECB327C6FC8D00D1A672 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -50,6 +56,8 @@
 				09285EF227C95726000EAC36 /* PasswordTextFieldView.swift */,
 				09285EF427C9576C000EAC36 /* LoginButtonView.swift */,
 				09285EF627C957A6000EAC36 /* LoginFooterView.swift */,
+				098EBB9C27DD57F2009F9E13 /* UsernameTextFieldView.swift */,
+				098EBB9E27DD58AD009F9E13 /* CreateAccountButtonView.swift */,
 			);
 			path = Elements;
 			sourceTree = "<group>";
@@ -75,6 +83,7 @@
 			children = (
 				09285EED27C95607000EAC36 /* Elements */,
 				09E8ECB127C6FC8D00D1A672 /* Erste_App_mit_SwiftUIApp.swift */,
+				098EBB9A27DD53B8009F9E13 /* NewAccountView.swift */,
 				09E8ECB327C6FC8D00D1A672 /* ContentView.swift */,
 				09E8ECB527C6FC8E00D1A672 /* Assets.xcassets */,
 				09E8ECB727C6FC8E00D1A672 /* Preview Content */,
@@ -160,7 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				098EBB9F27DD58AD009F9E13 /* CreateAccountButtonView.swift in Sources */,
 				09285EF727C957A6000EAC36 /* LoginFooterView.swift in Sources */,
+				098EBB9B27DD53B8009F9E13 /* NewAccountView.swift in Sources */,
+				098EBB9D27DD57F2009F9E13 /* UsernameTextFieldView.swift in Sources */,
 				09E8ECB427C6FC8D00D1A672 /* ContentView.swift in Sources */,
 				09285EEF27C95623000EAC36 /* LoginHeaderView.swift in Sources */,
 				09285EF327C95726000EAC36 /* PasswordTextFieldView.swift in Sources */,
