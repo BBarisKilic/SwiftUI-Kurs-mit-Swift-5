@@ -21,7 +21,7 @@ struct ContentView: View {
                 Divider()
                 EmailTextFieldView(email: $email)
                 PasswordTextFieldView(password: $password)
-                LoginButtonView()
+                LoginButtonView(action: checkLogin)
                 Spacer()
                 Divider()
                 NavigationLink(destination: NewAccountView()) {
@@ -30,6 +30,14 @@ struct ContentView: View {
             }
         }
         .accentColor(.black)
+    }
+    
+    func checkLogin() {
+        if email == "test@mail.de" && password == "1234" {
+            print("Login erfolgreich")
+        } else {
+            print("Email oder Passwort falsch")
+        }
     }
 }
 

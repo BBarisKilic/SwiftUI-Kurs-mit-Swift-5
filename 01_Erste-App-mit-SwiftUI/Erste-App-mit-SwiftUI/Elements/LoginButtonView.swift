@@ -7,11 +7,13 @@
 
 import SwiftUI
 
-
 struct LoginButtonView: View {
+    
+    var action : () -> Void
+    
     var body: some View {
         Button(
-            action: {},
+            action: action,
             label: {
                 HStack {
                     Spacer()
