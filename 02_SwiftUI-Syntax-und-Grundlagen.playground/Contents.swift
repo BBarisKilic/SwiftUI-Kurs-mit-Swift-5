@@ -47,3 +47,19 @@ struct MyView: View {
 var myView = MyView(body: 10)
 myView.showBody()
 
+//
+// 3. Closure
+//
+var myString: String = "String"
+
+var myInt: Int {
+    return 12
+}
+
+var myDouble: Double {
+    12.3
+}
+
+print(myString)
+print(myInt)
+print(myDouble)
