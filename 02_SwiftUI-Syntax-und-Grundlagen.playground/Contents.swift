@@ -110,3 +110,17 @@ loadMessage(id: "Baris") {
 }
 
 loadMessage(id: "Oznur", completion: {print("Done")})
+
+
+//
+// 6. Ternary Operator
+//
+var passwort: String = "1535"
+
+if passwort == "12345" {
+    print("Erfolgreich")
+} else {
+    print("Erfolglos")
+}
+
+print(passwort == "12345" ? "Erfolgreich" : "Erfolglos")
