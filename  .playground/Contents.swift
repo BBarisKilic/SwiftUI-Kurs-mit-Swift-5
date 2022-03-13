@@ -63,3 +63,21 @@ var myDouble: Double {
 print(myString)
 print(myInt)
 print(myDouble)
+
+//
+// 4. Computed Property
+//
+var vorName: String = "Peter"
+var nachName: String = "Müller"
+
+var name: String {
+    get {
+        return vorName + nachName
+    }
+}
+
+print(name)
+
+nachName = "Zimmer"
+
+print(name)
