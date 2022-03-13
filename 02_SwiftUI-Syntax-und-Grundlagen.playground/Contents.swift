@@ -1,7 +1,8 @@
 import UIKit
 
+//
 // 1. Class vs. Struct
-
+//
 class Player1 {
     var name: String
     
@@ -28,4 +29,21 @@ var player2 = Player2(name: "Andre")
 player1.printName()
 player2.printName()
 
+//
+// 2. Protocol
+//
+protocol View {
+    var body: Int {get set}
+}
+
+struct MyView: View {
+    var body: Int
+    
+    func showBody() {
+        print(body)
+    }
+}
+
+var myView = MyView(body: 10)
+myView.showBody()
 
