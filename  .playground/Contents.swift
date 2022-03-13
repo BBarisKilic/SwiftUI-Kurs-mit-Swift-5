@@ -81,3 +81,32 @@ print(name)
 nachName = "Zimmer"
 
 print(name)
+
+//
+// 5. Closure
+//
+func summe() {
+    
+}
+
+summe()
+
+var number: Int = 10
+var text: String = "Text"
+
+var closure : () -> Void = {
+    print("Hallo Welt")
+}
+
+closure()
+
+func loadMessage(id: String, completion: () -> ()) {
+    print(id)
+    completion()
+}
+
+loadMessage(id: "Baris") {
+    print("Completed")
+}
+
+loadMessage(id: "Oznur", completion: {print("Done")})
