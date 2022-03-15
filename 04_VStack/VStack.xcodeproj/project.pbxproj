@@ -11,6 +11,7 @@
 		091453C427DFF51500D2F762 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091453C327DFF51500D2F762 /* ContentView.swift */; };
 		091453C627DFF51600D2F762 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091453C527DFF51600D2F762 /* Assets.xcassets */; };
 		091453C927DFF51600D2F762 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 091453C827DFF51600D2F762 /* Preview Assets.xcassets */; };
+		0917EA7F27E0E33800409923 /* VStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0917EA7E27E0E33800409923 /* VStack1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		091453C327DFF51500D2F762 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		091453C527DFF51600D2F762 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		091453C827DFF51600D2F762 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0917EA7E27E0E33800409923 /* VStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		091453C027DFF51500D2F762 /* VStack */ = {
 			isa = PBXGroup;
 			children = (
+				0917EA7D27E0E30B00409923 /* Container */,
 				091453C127DFF51500D2F762 /* VStackApp.swift */,
 				091453C327DFF51500D2F762 /* ContentView.swift */,
 				091453C527DFF51600D2F762 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				091453C827DFF51600D2F762 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0917EA7D27E0E30B00409923 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				0917EA7E27E0E33800409923 /* VStack1.swift */,
+			);
+			path = Container;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				091453C427DFF51500D2F762 /* ContentView.swift in Sources */,
 				091453C227DFF51500D2F762 /* VStackApp.swift in Sources */,
+				0917EA7F27E0E33800409923 /* VStack1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
