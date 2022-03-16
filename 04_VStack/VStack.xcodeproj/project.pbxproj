@@ -14,6 +14,7 @@
 		0917EA7F27E0E33800409923 /* VStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0917EA7E27E0E33800409923 /* VStack1.swift */; };
 		0917EA8127E0E49A00409923 /* VStack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0917EA8027E0E49A00409923 /* VStack2.swift */; };
 		0917EA8327E0F26300409923 /* VStack3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0917EA8227E0F26300409923 /* VStack3.swift */; };
+		09EBA20B27E1628E000D6382 /* VStack4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09EBA20A27E1628E000D6382 /* VStack4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		0917EA7E27E0E33800409923 /* VStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack1.swift; sourceTree = "<group>"; };
 		0917EA8027E0E49A00409923 /* VStack2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack2.swift; sourceTree = "<group>"; };
 		0917EA8227E0F26300409923 /* VStack3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack3.swift; sourceTree = "<group>"; };
+		09EBA20A27E1628E000D6382 /* VStack4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				0917EA7E27E0E33800409923 /* VStack1.swift */,
 				0917EA8027E0E49A00409923 /* VStack2.swift */,
 				0917EA8227E0F26300409923 /* VStack3.swift */,
+				09EBA20A27E1628E000D6382 /* VStack4.swift */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				091453C427DFF51500D2F762 /* ContentView.swift in Sources */,
 				091453C227DFF51500D2F762 /* VStackApp.swift in Sources */,
+				09EBA20B27E1628E000D6382 /* VStack4.swift in Sources */,
 				0917EA8127E0E49A00409923 /* VStack2.swift in Sources */,
 				0917EA8327E0F26300409923 /* VStack3.swift in Sources */,
 				0917EA7F27E0E33800409923 /* VStack1.swift in Sources */,
