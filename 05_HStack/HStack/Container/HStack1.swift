@@ -16,7 +16,7 @@ struct HStack1: View {
         }
         .font(.custom("Arial", size: 20))
     }
-}
+}  
 
 struct HStack1_Previews: PreviewProvider {
     static var previews: some View {
