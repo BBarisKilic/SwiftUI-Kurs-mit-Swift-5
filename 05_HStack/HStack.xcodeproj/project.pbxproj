@@ -14,6 +14,7 @@
 		091A5B9627E4D5DD009225DC /* HStack1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091A5B9527E4D5DD009225DC /* HStack1.swift */; };
 		091A5B9827E4D780009225DC /* HStack2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091A5B9727E4D780009225DC /* HStack2.swift */; };
 		091A5B9A27E4DB23009225DC /* HStack3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091A5B9927E4DB23009225DC /* HStack3.swift */; };
+		096FAAC327EDEA6A00F0D920 /* HStack4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 096FAAC227EDEA6A00F0D920 /* HStack4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		091A5B9527E4D5DD009225DC /* HStack1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack1.swift; sourceTree = "<group>"; };
 		091A5B9727E4D780009225DC /* HStack2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack2.swift; sourceTree = "<group>"; };
 		091A5B9927E4DB23009225DC /* HStack3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack3.swift; sourceTree = "<group>"; };
+		096FAAC227EDEA6A00F0D920 /* HStack4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HStack4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				091A5B9527E4D5DD009225DC /* HStack1.swift */,
 				091A5B9727E4D780009225DC /* HStack2.swift */,
 				091A5B9927E4DB23009225DC /* HStack3.swift */,
+				096FAAC227EDEA6A00F0D920 /* HStack4.swift */,
 			);
 			path = Container;
 			sourceTree = "<group>";
@@ -154,6 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096FAAC327EDEA6A00F0D920 /* HStack4.swift in Sources */,
 				091A5B9827E4D780009225DC /* HStack2.swift in Sources */,
 				091A5B9627E4D5DD009225DC /* HStack1.swift in Sources */,
 				091A5B8927E4D561009225DC /* ContentView.swift in Sources */,
